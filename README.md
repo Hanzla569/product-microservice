@@ -70,8 +70,9 @@ Authentication Endpoints
 •	Update Product: PUT /products/{id} 
 •	Delete Product: DELETE /products/{id}
 
+**Authentication**
 
-
-
+This microservice uses JWT (JSON Web Token) for authentication. All protected routes require a valid JWT token.
+To authenticate, register or login to get an access token. Include this token in the Authorization header for all protected routes.
 
 
